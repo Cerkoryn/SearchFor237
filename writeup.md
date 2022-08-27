@@ -160,6 +160,10 @@ This hunt was definitely a different style than the hunt for ronin for me. Less 
 The mint began and we were eager to get started. I knew we had an advantage as developers familiar with the CNFT space. I usually watch the chain when a mint I'm interested in is happening. As the Supreme mint was happening, I grabbed all the metadata as the mint progressed. I already had this code, and just needed to modify it a little bit to give us additional insight into the challenge. I saw the additional data on the last line of the description. Once the pattern was identified, I updated the code to automatically decipher the ROT-13 lines, and from there we worked toward the other puzzles in the metadata. As new Supremes were minted, we would keep getting updated intel.
 
 
+### BenjaminTheRelentless
+From my perspective it started with the strings of characters in the Metadata.  I noticed that a bunch of supremes had the strings of characters and I posted it here, about 5 minutes later, Bre started posting what he had found from the first 100 supremes and we started working  off of that.  The team started decoding that into the riddles.  We began posting our best answers to the riddles.  We got to the point where we felt we had the correct answers. Some riddles we had more than one possible, so we tried to use reason and logic to narrow it down.  When we felt we were close enough to start attempts at recovering the wallet, we employed some automation to help out (cause why work harder when you can work smarter).  Then, much like last time, we reinserted a discarded potential answer into the seeds being tested, 'oil' , and we solved the puzzle.  I wish I had pushed harder for 'oil' when I first suggested it on the 11th but 'charm' still haunts me and I didn't want to be the one steering the group in the wrong direction.
+
+
 ### soggy waffles
 Reading the bip list quickly became a daily activity. Which very quickly lead to more and more potential answers stacking upon an an already inconcieavably long list of potentail answers.
 
@@ -200,7 +204,3 @@ VALID WALLETS WITH A BALANCE ::
  [(('arrest', 'alone', 'congress', 'cement', 'oil', 'endorse', 'damage', 'lady', 'toss', 'pony', 'invest', 'dry', 'current', 'segment', 'trade', 'rigid', 'flag', 'loud', 'skill', 'spice', 'neutral', 'option', 'skate', 'arrange'), '24d2ada18c9951030ae9837dfdc1bc76478e9a5b', 'addr1qxf0fgu79ka5dxv2xp5yge9s3f44kluek2zmglxv5hlk2m8vcnlf6a5nzgu5gt802puhwpa7erk0jrx4segjtx9v29fsh4egtk', stake1u8kvfl5aw6f3yw2y9nh4q7thq7lv3m8epn2cv5f9nzk9z5cmrap3g, 1580280)]
 TANGO CRAPPED OUT
 ```
-
-
-### BenjaminTheRelentless
-I don't have a lot to contribute to the write up that hasn't already been said.  From my perspective it started with the strings of characters in the Metadata.  I noticed that a bunch of supremes had the strings of characters and I posted it here, about 5 minutes later, Bre started posting what he had found from the first 100 supremes and we started working  off of that.  The team started decoding that into the riddles.  We began posting our best answers to the riddles.  We got to the point where we felt we had the correct answers. Some riddles we had more than one possible, so we tried to use reason and logic to narrow it down.  When we felt we were close enough to start attempts at recovering the wallet, we employed some automation to help out (cause why work harder when you can work smarter).  Then, much like last time, we reinserted a discarded potential answer into the seeds being tested, 'oil' , and we solved the puzzle.  I wish I had pushed harder for 'oil' when I first suggested it on the 11th but 'charm' still haunts me and I didn't want to be the one steering the group in the wrong direction.
