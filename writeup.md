@@ -14,7 +14,7 @@ THE SEARCH FOR SUPREME 237 GOES LIVE THE INSTANT SUPREMES MINT
 
 Happy hunting!!   
 
-![Bernal](./btcrecover.png) 
+![Bernal](./Bernal.png) 
 
 
 ### Cerkoryn
