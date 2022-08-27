@@ -161,7 +161,8 @@ Total checked ::  1526067
 Total balances checked ::  5445
 Total valid stake addr ::  0
 VALID WALLETS WITH A BALANCE::
- []```
+ []
+ ```
  
 Unfortunately it crapped out after checkng 1,526,067 wallets. The culprit was either Tango refusing to allow us to connect anymore or a power outage during some wicked thunderstorms. Either way, the next morning, the word list was pruned down a bit….(53 million is definitely nicer than 107 million)
 `NUMBER OF PERMUTATIONS 53,747,712`
@@ -172,7 +173,8 @@ Total checked ::  2431381
 Total balances checked ::  3510
 VALID WALLETS WITH A BALANCE ::
  [(('arrest', 'alone', 'congress', 'cement', 'oil', 'endorse', 'damage', 'lady', 'toss', 'pony', 'invest', 'dry', 'current', 'segment', 'trade', 'rigid', 'flag', 'loud', 'skill', 'spice', 'neutral', 'option', 'skate', 'arrange'), '24d2ada18c9951030ae9837dfdc1bc76478e9a5b', 'addr1qxf0fgu79ka5dxv2xp5yge9s3f44kluek2zmglxv5hlk2m8vcnlf6a5nzgu5gt802puhwpa7erk0jrx4segjtx9v29fsh4egtk', stake1u8kvfl5aw6f3yw2y9nh4q7thq7lv3m8epn2cv5f9nzk9z5cmrap3g, 1580280)]
-TANGO CRAPPED OUT```
+TANGO CRAPPED OUT
+```
 
 
 ##### BenjaminTheRelentless
