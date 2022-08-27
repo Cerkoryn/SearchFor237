@@ -167,11 +167,12 @@ From my perspective it started with the strings of characters in the Metadata.  
 
 
 ### soggy waffles
-Reading the bip list quickly became a daily activity. Which very quickly lead to more and more potential answers stacking upon an an already inconcieavably long list of potentail answers.
+Reading the bip list quickly became a daily activity. Which very quickly lead to more and more potential answers stacking upon an already inconceivably long list of potential answers.
 
-So, after days upon days of brainstorming and pouring through the bip list it became apparent that manually inputting what amounted to far more than 100 million potential seed phrases wasn’t going to be doable.. lol
+So, after days upon days of brainstorming and pouring through the bip list, it became apparent that manually inputting what amounted to far more than 100 million potential seed phrases wasn’t going to be doable.
 
 The next step obviously required an automated solution. We tossed together a python script that utilized cardano CLIs, python libraries, and tangocrypto. Basically the script that ultimately found Bernal did the following:
+
 1. Checked if the menomic’s checksum was valid
 2. Checked against our local “database” whether or not the mnemonic was one we’d already seen
 3. Derived a wallet id from the mnemonic
@@ -179,13 +180,15 @@ The next step obviously required an automated solution. We tossed together a pyt
 5. Derived a stake adress from the wallet addr
 6. And then checked the balance of that address for anything none zero
 
-Instead of checking the wallet balance, we could have simply compared our stake addresses with Bernal’s publicly available stake address, but we weren’t sure how tricky Jeb and team were being. It was possible that Bernal was not in the wallet we were trying to “crack”.
+    Instead of checking the wallet balance, we could have simply compared our stake addresses with Bernal’s publicly available stake address, but we weren’t sure how tricky Jeb and team were being. It was possible that Bernal was not in the wallet we were trying to “crack”.
 
-The first night the script was fired up, it ran against the following:
-```NUMBER OF PERMUTATIONS 107,495,424
+The first night the script was fired up:
+
+```
+NUMBER OF PERMUTATIONS 107,495,424
 
 RESULTS:
-TANGO CRAPPED OUT
+(TANGO CRAPPED OUT)
 
 Duplicates ::  651
 Total checked ::  1526067
@@ -193,16 +196,21 @@ Total balances checked ::  5445
 Total valid stake addr ::  0
 VALID WALLETS WITH A BALANCE::
  []
- ```
+```
  
-Unfortunately it crapped out after checkng 1,526,067 wallets. The culprit was either Tango refusing to allow us to connect anymore or a power outage during some wicked thunderstorms. Either way, the next morning, the word list was pruned down a bit….(53 million is definitely nicer than 107 million)
-`NUMBER OF PERMUTATIONS 53,747,712`
+Unfortunately it crapped out after checkng 1,526,067 wallets. The culprit was either Tango refusing our connection(rate-limiting) or a power outage during some wicked thunderstorms. Either way, the next morning, the word list was pruned down a bit. Resulting in only ~53 million possible mnemonics. 
 
-And then, an hour or so later… HUZZAH!!! Somewhere around the 2 millionth query Bernal was found!!!!
-```Duplicates ::  6097
+And then, an hour or so later… HUZZAH!!!
+
+Somewhere around the 2.4 millionth query Bernal was found!!!!
+
+```
+NUMBER OF PERMUTATIONS 53,747,712
+
+Duplicates ::  6097
 Total checked ::  2431381
 Total balances checked ::  3510
 VALID WALLETS WITH A BALANCE ::
  [(('arrest', 'alone', 'congress', 'cement', 'oil', 'endorse', 'damage', 'lady', 'toss', 'pony', 'invest', 'dry', 'current', 'segment', 'trade', 'rigid', 'flag', 'loud', 'skill', 'spice', 'neutral', 'option', 'skate', 'arrange'), '24d2ada18c9951030ae9837dfdc1bc76478e9a5b', 'addr1qxf0fgu79ka5dxv2xp5yge9s3f44kluek2zmglxv5hlk2m8vcnlf6a5nzgu5gt802puhwpa7erk0jrx4segjtx9v29fsh4egtk', stake1u8kvfl5aw6f3yw2y9nh4q7thq7lv3m8epn2cv5f9nzk9z5cmrap3g, 1580280)]
-TANGO CRAPPED OUT
+TANGO FAILS :: []
 ```
