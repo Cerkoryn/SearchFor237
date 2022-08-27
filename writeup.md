@@ -1,3 +1,22 @@
+# The Search for 237
+
+THE SEARCH FOR SUPREME 237 GOES LIVE THE INSTANT SUPREMES MINT
+
+ This hunt is for the entire CNFT community, you do not need to be CLAN to participate.
+
+ Once the Supremes mint, the clues are out there.
+
+ Once you solve them, you can claim ultra-rare Supreme 237 as your reward.
+
+ You will not need to check in, or verify anything about your solve.  Once you have solved the Search for Supreme 237, you will know what to do.
+
+ No hints will be given.
+
+Happy hunting!!   
+
+![Bernal](./btcrecover.png) 
+
+
 ### Cerkoryn
 #### Finding and decoding the clues
 The clues were found in the description part of the Supremes when they were minted.  Starting from Supreme 001-015, there was a single 6-7 character string that looked like garbage, but decoded to legible text using ROT-13.  From Supreme 015-175, the ROT-13 cipher only worked on odd numbers, and then from 176 to 228 all numbers were used again.
