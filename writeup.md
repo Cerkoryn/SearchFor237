@@ -50,7 +50,7 @@ Or
 We collectively agreed that the dual-meaning for the word arrest (to stop as in heart arrest) vs going to the clink (jail) made **arrest** the ideal answer
     
      
-`2. When second you likely have/to have/to take more time to think.` **ALONE**    
+`2. When second you likely have more time to think.` **ALONE**    
 This was one of the hardest ones because we had a laundry list of viable answers.  What made it worse was that a critical piece of information was missing from one Supreme that wasn't minted yet.  So the question could have been...    
 > "When second you like to take more time to think."    
 > "When second you like to have more time to think."    
