@@ -144,7 +144,7 @@ This was further complicated by the fact that we needed a question to take away 
 > judgment -> judge    
 > comment -> come    
 
-...and a few other obscure words that didn't really fit anything.  And of those, `judgment` seemed to fit best and in this particular question.  Personally I was dead sold on `judge` here for that reason so I didn't often test with other words.  Ultimately though, that clue ended up being JEBait :kek: and **skill** was the correct answer.
+...and a few other obscure words that didn't really fit anything.  And of those, `judgment` seemed to fit best and in this particular question.  Personally I was dead sold on `judge` here for that reason so I didn't often test with other words.  Ultimately though, that clue ended up being JEBait 😵 and **skill** was the correct answer.
     
     
 `20. Twentieth the asset Arrakis exports.` **SPICE**    
